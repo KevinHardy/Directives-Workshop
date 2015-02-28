@@ -1,4 +1,4 @@
-var app = angular.module('directiveWorkshop', ['pending']);
+var app = angular.module('directiveWorkshop', ['myDirectives']);
 
 app.controller('mainCtrl', function($scope, mainService){
 $scope.getData = function () {
